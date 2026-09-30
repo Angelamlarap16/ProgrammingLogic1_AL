@@ -1,0 +1,47 @@
+/* Selector de elemento para el fondo general */
+body {
+    font-family: Arial, sans-serif;
+    
+    /* Configuración de tu imagen de fondo */
+    background-image: url('8389401.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    
+    /* Configuración Flexbox para centrar en la pantalla */
+    display: flex;
+    flex-direction: column; /* Coloca el título arriba y la caja abajo */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    min-height: 100vh; /* Le dice al cuerpo que ocupe el 100% de la altura de la ventana */
+    margin: 0; /* Elimina los márgenes por defecto del navegador */
+}
+
+/* Selector para el título principal */
+h1 {
+    color: white; /* Título en blanco para contrastar */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Sombra un poco más oscura para que resalte más */
+    margin-bottom: 20px; /* Da un pequeño espacio entre el título y la caja */
+}
+
+/* Selector de ID para el contenedor de los números */
+#resultado {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centra el texto que aparece dentro de la caja */
+}
+
+/* Selectores para los textos dentro del contenedor */
+#resultado p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+#resultado strong {
+    color: #2980b9;
+}
